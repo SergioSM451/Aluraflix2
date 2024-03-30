@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaPeliculas {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente línea si no caben todas en una sola */
+  justify-content: center; /* Centra las imágenes horizontalmente */
+}
+
+#listaPeliculas img {
+  margin: 24px; /* Agrega un espacio entre cada imagen */
+  max-height: 270px;
+}
+
+.form-wrapper {
+  margin: 0 0 0.3px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #01B869;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 1px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.movie button {
+  border: none;
+  background-color: #01B869;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Roboto Mono", monospace;
+  border-radius: 5px;
+}
+
+.movie button:hover {
+  background-color: #106527;
+  transition: 1s;
+}
+
+.movie a {
+  text-decoration: none;
+  color: #dedfea;
+  display: block;
+  margin-top: 5px;
+}
+
+#listaPeliculas img:hover {
+  filter: drop-shadow(0 0 0.75rem white);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.form-wrapper input {
+  display: inline-block; /* Mostrar los inputs en la misma línea */
+  margin: 0 auto;
+  padding: 10px;
+  width: calc(170px); /* Establecer el ancho al 50% del contenedor */
+  box-sizing: border-box; /* Incluir el padding en el ancho total */
+}
+
+p {
+  color: #ffffff;
+  font-size: 19px;
+}
