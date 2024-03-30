@@ -37,12 +37,12 @@ body {
 
 #listaPeliculas {
   display: flex;
-  flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente línea si no caben todas en una sola */
-  justify-content: center; /* Centra las imágenes horizontalmente */
+  flex-wrap: wrap; 
+  justify-content: center; 
 }
 
 #listaPeliculas img {
-  margin: 24px; /* Agrega un espacio entre cada imagen */
+  margin: 24px; 
   max-height: 270px;
 }
 
@@ -105,11 +105,11 @@ body {
 }
 
 .form-wrapper input {
-  display: inline-block; /* Mostrar los inputs en la misma línea */
+  display: inline-block; 
   margin: 0 auto;
   padding: 10px;
-  width: calc(170px); /* Establecer el ancho al 50% del contenedor */
-  box-sizing: border-box; /* Incluir el padding en el ancho total */
+  width: calc(170px); 
+  box-sizing: border-box; 
 }
 
 p {
